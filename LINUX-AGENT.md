@@ -13,14 +13,12 @@ Baixe `DBGuard.Agent` e `appsettings.json` (exemplo) dos assets desta release.
 
 ## 2. Instalar
 
-\```bash
 sudo mkdir -p /opt/dbguard-agent
 sudo cp DBGuard.Agent appsettings.json /opt/dbguard-agent/
 sudo chmod +x /opt/dbguard-agent/DBGuard.Agent
 
 sudo useradd -r -s /usr/sbin/nologin dbguard || true
 sudo chown -R dbguard:dbguard /opt/dbguard-agent
-\```
 
 ## 3. Configurar (`appsettings.json`)
 
